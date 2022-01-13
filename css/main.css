@@ -104,8 +104,8 @@ main{
 }
 
 .p-container p{
-    width: 55%;
-    min-width: 280px;
+    width: 80%;
+    max-width: 760px;
     font-size: 30px;
     font-weight: bold;
     letter-spacing: 10px;
