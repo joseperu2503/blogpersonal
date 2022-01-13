@@ -11,6 +11,7 @@ a {
 
 body {
     min-width: 320px;
+    min-height: 360px;
     font-family: 'Roboto Mono', monospace;
     position: fixed;
     top: 0;
@@ -82,34 +83,47 @@ header {
 
 main{
     width: 100%;
-    height: calc(100vh - 140px);
+    height: calc(100vh);
     display: flex;
     align-content: flex-start;
-
 }
 
 .main-container {
     width: 100%;
     min-width: 320px;
-    height: calc(100vh - 140px);
     background-image: url(https://i.postimg.cc/B6BCyw15/Cover.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.main-container p{
-    width: 50%;
+.p-container{
+    height: 180px;
+    margin-top: 100px;
+}
+
+.p-container p{
+    width: 55%;
     min-width: 280px;
     font-size: 30px;
     font-weight: bold;
     letter-spacing: 10px;
     color: white;
     text-align: center;
-    margin: 100px auto 70px;
+    margin: 0 auto 0;
+    
+    /* margin-bottom: calc(100%*0.2); */
 }
 
-.main-button {
+
+.button-container{
+    width: 100%;
+    padding-bottom: 330px;
+    top: 550px;
+    margin-top: 150px;
+}
+
+.button {
     padding: 10px;
     background-color: #47cfac;
     border: none;
@@ -121,7 +135,15 @@ main{
     border-radius: 8px;
 }
 
-.main-button a{
-    width: 100%;
-    height: 100%;
+
+@media screen and (max-height: 360px) {
+
+    main {
+        height: 100%;
+    }
+
+    body{
+        position: relative;
+
+    }
 }
