@@ -83,7 +83,7 @@ header {
 
 main{
     width: 100%;
-    height: calc(100vh);
+    /* height: calc(100vh); */
     min-height: 700px;
     display: flex;
     align-content: flex-start;
