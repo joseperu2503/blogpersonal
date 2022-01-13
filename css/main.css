@@ -92,7 +92,7 @@ main{
     width: 100%;
     min-width: 320px;
     height: calc(100vh - 140px);
-    background-image: url(./../assets/img/Cover.png);
+    background-image: url(https://i.postimg.cc/B6BCyw15/Cover.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
