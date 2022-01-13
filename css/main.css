@@ -153,8 +153,8 @@ main{
 
     .button-container{
         width: 100%;
-        position: absolute;
-        top: calc(100% * 0.9);
+        position: relative;
+        top: calc(100% * 0.5 - 240px);
         margin-top: 0;
     }
 }
