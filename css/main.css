@@ -83,14 +83,13 @@ header {
 
 main{
     width: 100%;
-    
+    height: calc(100vh);
     display: flex;
     align-content: flex-start;
 }
 
 .main-container {
     width: 100%;
-    height: 100vh;
     min-width: 320px;
     background-image: url(https://i.postimg.cc/B6BCyw15/Cover.png);
     background-size: cover;
@@ -104,10 +103,10 @@ main{
 }
 
 .p-container p{
-    width: 60%;
+    width: 55%;
     min-width: 280px;
     font-size: 30px;
-    font-weight: 700;
+    font-weight: bold;
     letter-spacing: 10px;
     color: white;
     text-align: center;
@@ -120,17 +119,18 @@ main{
 .button-container{
     width: 100%;
     padding-bottom: 330px;
-    margin-top: 90px;
+    top: 550px;
+    margin-top: 150px;
 }
 
 .button {
-    padding: 15px ;
+    padding: 10px;
     background-color: #47cfac;
     border: none;
     position: relative;
     left: calc(50% - 55px);
     font-weight: 700;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 50px;
     border-radius: 8px;
 }
