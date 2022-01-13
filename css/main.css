@@ -154,7 +154,7 @@ main{
     .button-container{
         width: 100%;
         position: absolute;
-        top: calc(100% * 0.7);
+        top: calc(100% * 0.9);
         margin-top: 0;
     }
 }
