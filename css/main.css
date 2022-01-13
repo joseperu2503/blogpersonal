@@ -125,7 +125,8 @@ main{
 
     position: relative;
 
-    top: calc(100% * 0.13);
+    /* top: calc(100% * 0.13); */
+    top: 90px;
     margin-top: 0;
 }
 
