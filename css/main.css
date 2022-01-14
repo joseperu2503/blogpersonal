@@ -239,6 +239,7 @@ header {
     font-size: 25px;
     line-height: 30px;
     text-align: center;
+    
 
     border-bottom: 1px solid #ddd;
 
@@ -351,8 +352,4 @@ header {
     .new-blogpost-button {
         left: 0;
     }
-
-
-
- 
 }
