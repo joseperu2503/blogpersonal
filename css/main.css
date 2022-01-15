@@ -523,7 +523,7 @@ footer p {
     }
 } */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1090px) {
 
     .description-container {
         width: 100%;
@@ -533,7 +533,7 @@ footer p {
 
         display: flex;
         align-items: center;
-    
+
     }
 
     .description-grid {
