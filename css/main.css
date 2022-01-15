@@ -484,8 +484,7 @@ footer p {
 
 }
 
-@media screen and (max-height: 360px) {
-
+@media screen and (max-height: 600px) {
     .home-main {
         height: 100%;
     }
