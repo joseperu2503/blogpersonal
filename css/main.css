@@ -486,11 +486,11 @@ footer p {
 
 @media screen and (max-height: 360px) {
 
-    main {
+    .home-main {
         height: 100%;
     }
 
-    body{
+    .home-body{
         position: relative;
 
     }
