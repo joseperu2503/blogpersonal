@@ -246,12 +246,11 @@ header {
     min-width: 280px;
     max-width: 1320px;
     display: grid;
-    grid-template-columns: repeat(auto-fit , minmax(280px,calc(1280px /3 )));
+    grid-template-columns: repeat(auto-fit , minmax(calc((993px*0.8 - 40px) / 3),calc((100% - 40px)/3)));  
     grid-auto-rows: 1fr;
     margin: 0 auto;
     gap: 20px;
-    justify-content: center
-    ;
+    justify-content: center;
 }
 
 .old-post-item {
@@ -506,7 +505,8 @@ footer p {
     }
 }
 
-@media screen and (min-width: 1000px) {
+
+@media screen and (min-width: 1200px) {
 
 
     .new-blogpost {
@@ -536,6 +536,38 @@ footer p {
         left: 0;
     }
 }
+
+@media screen and (max-width: 992px) {
+
+    .old-post-grid {
+        width: 80%;
+        min-width: 280px;
+        max-width: 1320px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit , minmax(calc((577px*0.8 - 20px) / 2),calc((100% - 20px)/2)));  
+        grid-auto-rows: 1fr;
+        margin: 0 auto;
+        gap: 20px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .old-post-grid {
+        width: 80%;
+        min-width: 280px;
+        max-width: 1320px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit , minmax(280px,100%));  
+        grid-auto-rows: 1fr;
+        margin: 0 auto;
+        gap: 20px;
+        justify-content: center;
+    }
+}
+
+
 
 @media screen and (max-width: 910px) {
 
@@ -612,3 +644,4 @@ footer p {
         grid-template-columns: repeat(auto-fit , minmax(280px,100%));
     }
 }
+
