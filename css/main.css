@@ -313,6 +313,92 @@ footer p {
     
 }
 
+/* ----------blog----------------- */
+.blog-body{
+    width: 100%;
+    min-width: 320px;
+}
+
+.blog-main {
+    width: 100%;
+    min-width: 320px;
+}
+
+.blog-container {
+    width: 80%;
+    max-width: 1000px;
+    min-width: 280px;
+    margin: 0 auto 50px;
+}
+
+.blog-image {
+    width: 100%;
+}
+
+.blog-noticias {
+    width: 100%;
+    min-width: 280px;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 40px;
+}
+
+.blog-info{
+    width: 100%;
+}
+
+.blog-title {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.blog-info p {
+    padding: 10px 0;
+}
+
+
+.contact-container {
+    background-color: #e6e9ed;
+    padding: 70px 0;
+}
+.contact {
+    width: 80%;
+    max-width: calc(1920px*0.8);
+    min-width: 280px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    justify-content: center;
+}
+
+.contact-item {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 110px 2fr;
+    justify-items: center;
+}
+
+.contact-item-image {
+    width: 100px;
+    justify-self: left;
+}
+
+.contact-item-info {
+    justify-self: left;
+}
+
+.contact-item-title {
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+.contact-item-info p {
+    margin-top: 16px;
+}
+
+
+
 
 @media screen and (max-height: 360px) {
 
@@ -367,3 +453,34 @@ footer p {
         left: 0;
     }
 }
+
+@media screen and (max-width: 910px) {
+
+    .contact {
+        min-width: 300px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 40px;
+        justify-content: center;
+    }
+
+    .contact-item-info {
+        align-self: center;
+    }
+    .contact-item-image {
+        align-self: center;
+    }
+}
+
+/* @media screen and (max-width: 500px) {
+
+    .contact-item {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+    }
+} */
